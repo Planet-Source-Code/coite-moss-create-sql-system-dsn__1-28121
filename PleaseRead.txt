@@ -1,0 +1,40 @@
+'********************************************************************
+'**    Created by Coyote and COYOTE CODE IS COOL    **
+'**    http://www.coyotecavern.com/                                 **
+'**    Use this as you like, no copyright, no restrictions     **
+'**    I assume NO Responsibility for this code.                **
+'**    Copy, Use, Revise, Or even Distribute as your code  **
+'**    All I want is to Give, because I have Received           **
+'**    So much help from others.  Thank You !                   **
+'********************************************************************
+
+Hi yea.... First.. this is for creatining a "System" DSN for SQL server.
+Enclosed in the zip, you have two projects. 
+
+First:
+CreateDSN. vbp -  
+You will have to- edit the code - using the comments in the code for instruction.
+Yes the app will run as is, however it will not have your SQL server name, or
+database name or your DSN Name and Description...until you edit them.
+Next:
+CreateEnterDSN.vbp - 
+This one you use the Form to enter the data/information for creating the DSN. 
+(Why not just do this in the control panel? Well, I have the same question,
+I don't use this version, Maybe the answer will follow)
+
+Neither of the above actually test the connection, so they assume (ass out of u and ass out of me) 
+that all is correct. This could be added, I just never went to the trouble.
+The code Does Check if the SQL driver exist and 
+The code Does Check to see if the DSN name already exit. 
+
+Why the second version: some administrators remove control panel options to keep 
+users from messing with stuff and screwing up their workstation. They can carry around
+in their little fix-it set this app when a new DSN is needed. Another option is to fill in the 
+required text box text/data where it is visible but not allow the user to edit. 
+
+AND one last important thing. This code sets up a Trusted SQL Connection. You'll have to make 
+some revisions if you want to change this.
+SMILE and Have A Great Day
+>>>Coyote<<<
+
+
